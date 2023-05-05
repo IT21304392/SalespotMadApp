@@ -20,6 +20,7 @@ public class ShopRepo {
         }
         return mutableProductList;
     }
+    
 
     private void loadProducts() {
         List<Product> productList = new ArrayList<>();

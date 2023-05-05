@@ -70,35 +70,35 @@
             android:background="#01579B"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button17"
-                android:layout_width="290dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="@dimen/butenleft1"
-                android:layout_marginTop="@dimen/margintop1"
-                android:backgroundTint="#7C4DFF"
-                android:text="@string/addimage"
-                app:cornerRadius="@dimen/btnradius" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="30dp"
+                android:padding="15dp"
+                android:text="TextView" />
 
-            <Button
-                android:id="@+id/button18"
-                android:layout_width="290dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="@dimen/butenleft1"
-                android:layout_marginTop="@dimen/margintop1"
-                android:backgroundTint="#7C4DFF"
-                android:text="@string/addname"
-                app:cornerRadius="@dimen/btnradius" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="30dp"
+                android:padding="15dp"
+                android:text="TextView" />
 
-            <Button
-                android:id="@+id/button19"
-                android:layout_width="290dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="@dimen/butenleft1"
-                android:layout_marginTop="@dimen/margintop1"
-                android:backgroundTint="#7C4DFF"
-                android:text="@string/addprice"
-                app:cornerRadius="@dimen/btnradius" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="30dp"
+                android:padding="15dp"
+                android:text="TextView" />
         </LinearLayout>
 
     </LinearLayout>

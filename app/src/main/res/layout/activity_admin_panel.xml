@@ -6,7 +6,7 @@
     android:background="@drawable/greadient"
     android:layout_height="match_parent"
     tools:context=".AdminPanel">
-<ScrollView
+<ScrollView gggggggggggggggggggggggggg
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >

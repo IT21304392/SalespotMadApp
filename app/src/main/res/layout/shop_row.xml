@@ -17,7 +17,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
+        android:background="@color/blue_light"
         android:onClick="@{() -> shopInterface.onItemClick(product)}"
         >
 
@@ -27,16 +27,16 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/iphone11"
+            app:srcCompat="@drawable/frock11"
             android:productImage="@{product.imageUrl}"
             />
 
         <TextView
             android:id="@+id/productNameTextView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{product.name}"
+            android:layout_height="13dp"
             android:layout_gravity="center"
+            android:text="@{product.name}"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
 
         <TextView

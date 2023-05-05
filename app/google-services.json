@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1059850971301",
-    "project_id": "madproject-d9c7f",
-    "storage_bucket": "madproject-d9c7f.appspot.com"
+    "project_number": "80574897968",
+    "project_id": "madprojectrealtimefirebase",
+    "storage_bucket": "madprojectrealtimefirebase.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1059850971301:android:015e90b0e2c2de0c4c054c",
+        "mobilesdk_app_id": "1:80574897968:android:3553f4616d3a73c6b6b2f5",
         "android_client_info": {
           "package_name": "com.example.madproject"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1059850971301-035jtanq7nois6bunq5nr8t43i8cc58e.apps.googleusercontent.com",
+          "client_id": "80574897968-51amo0002ip8d7d09kc21rhvmh9pv1pa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPj1Mi582W5FBFAP34fuKHV9-nWvfvwUs"
+          "current_key": "AIzaSyA0eayyiVvsrBcVe-Vr319iZnh4aIfgCO8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1059850971301-035jtanq7nois6bunq5nr8t43i8cc58e.apps.googleusercontent.com",
+              "client_id": "80574897968-51amo0002ip8d7d09kc21rhvmh9pv1pa.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

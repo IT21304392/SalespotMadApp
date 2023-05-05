@@ -15,6 +15,7 @@ public class ShopRepo {
 
     public LiveData<List<Product>> getProducts() {
         if (mutableProductList == null) {
+            
             mutableProductList = new MutableLiveData<>();
             loadProducts();
         }

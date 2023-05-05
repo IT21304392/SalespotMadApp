@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
 
     fun goToSecondActivity(view: View) {
-        val intent = Intent(this, itemCategory::class.java)
+        val intent = Intent(this, AdminPanel::class.java)
         startActivity(intent)
         }
     fun goThirdActivity(view: View) {

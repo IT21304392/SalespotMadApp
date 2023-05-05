@@ -8,6 +8,10 @@
     android:layout_height="match_parent"
     tools:context=".itemCategory5">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
@@ -354,4 +358,5 @@
 
         </LinearLayout>
     </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

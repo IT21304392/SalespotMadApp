@@ -6,7 +6,10 @@
     android:background="@drawable/greadient"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
@@ -122,4 +125,5 @@
             android:textSize="24sp"
             app:cornerRadius="@dimen/borderradius" />
     </LinearLayout>
+</ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

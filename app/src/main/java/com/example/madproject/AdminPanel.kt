@@ -1,5 +1,6 @@
 package com.example.madproject
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +16,8 @@ class AdminPanel : AppCompatActivity() {
     private lateinit var itemimage: EditText
     private lateinit var btnsavedata: Button
 
+
+    private lateinit var btnfetchdata:Button
     private lateinit var dbRef: DatabaseReference
 
 
@@ -33,6 +36,7 @@ class AdminPanel : AppCompatActivity() {
             saveitemdata()
 
         }
+
     }
     private fun saveitemdata(){
         var itName = itemName.text.toString()
@@ -66,3 +70,4 @@ class AdminPanel : AppCompatActivity() {
     }
 
 }
+

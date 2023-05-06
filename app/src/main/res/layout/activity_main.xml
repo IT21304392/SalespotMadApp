@@ -6,124 +6,130 @@
     android:background="@drawable/greadient"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        android:orientation="vertical"
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:layout_marginTop="@dimen/producttop"
-            android:fontFamily="monospace"
-            android:text="@string/proucts"
-            android:textAlignment="center"
-            android:textColor="#BAB8B8"
-            android:textSize="34sp" />
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:onClick="goToSecondActivity"
-            android:id="@+id/button"
-            android:layout_width="370dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="@dimen/productleft"
-            android:layout_marginTop="@dimen/margintop"
-            android:backgroundTint="#653700B3"
-            android:fontFamily="serif"
-            android:shadowColor="@color/black"
-            android:shadowDx="25"
-            android:shadowDy="20"
-            android:shadowRadius="25"
-            android:text="@string/Textiles"
-            android:textColor="#BAB8B8"
-            android:textSize="24sp"
-            app:cornerRadius="@dimen/borderradius" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginTop="@dimen/producttop"
+                android:fontFamily="monospace"
+                android:text="@string/proucts"
+                android:textAlignment="center"
+                android:textColor="#BAB8B8"
+                android:textSize="34sp" />
 
-        <Button
-            android:onClick="goThirdActivity"
+            <Button
+                android:id="@+id/button"
+                android:layout_width="370dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/productleft"
+                android:layout_marginTop="@dimen/margintop"
+                android:backgroundTint="#653700B3"
+                android:fontFamily="serif"
+                android:onClick="goToSecondActivity"
+                android:shadowColor="@color/black"
+                android:shadowDx="25"
+                android:shadowDy="20"
+                android:shadowRadius="25"
+                android:text="@string/Textiles"
+                android:textColor="#BAB8B8"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/borderradius" />
 
-            android:id="@+id/button2"
-            android:layout_width="370dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="@dimen/productleft"
-            android:layout_marginTop="@dimen/margintop"
-            android:backgroundTint="@color/butencolor"
-            android:fontFamily="serif"
-            android:shadowColor="@color/black"
-            android:shadowDx="25"
-            android:shadowDy="20"
-            android:shadowRadius="25"
-            android:text="@string/Jewellery"
-            android:textColor="@color/btntextcolo"
-            android:textSize="24sp"
-            app:cornerRadius="@dimen/borderradius" />
+            <Button
+                android:id="@+id/button2"
 
-        <Button
-            android:onClick="goTofourthActivity"
-            android:id="@+id/button3"
-            android:layout_width="370dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="@dimen/productleft"
-            android:layout_marginTop="@dimen/margintop"
-            android:backgroundTint="#653700B3"
-            android:fontFamily="serif"
-            android:shadowColor="@color/black"
-            android:shadowDx="25"
-            android:shadowDy="20"
-            android:shadowRadius="25"
-            android:text="@string/KitchenDining"
-            android:textColor="#BAB8B8"
-            android:textSize="24sp"
-            app:cornerRadius="@dimen/borderradius" />
+                android:layout_width="370dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/productleft"
+                android:layout_marginTop="@dimen/margintop"
+                android:backgroundTint="@color/butencolor"
+                android:fontFamily="serif"
+                android:onClick="goThirdActivity"
+                android:shadowColor="@color/black"
+                android:shadowDx="25"
+                android:shadowDy="20"
+                android:shadowRadius="25"
+                android:text="@string/Jewellery"
+                android:textColor="@color/btntextcolo"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/borderradius" />
 
-        <Button
-            android:onClick="goTofifthActivity"
-            android:id="@+id/button4"
-            android:layout_width="370dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="@dimen/productleft"
-            android:layout_marginTop="@dimen/margintop"
-            android:backgroundTint="#653700B3"
-            android:fontFamily="serif"
-            android:shadowColor="@color/black"
-            android:shadowDx="25"
-            android:shadowDy="20"
-            android:shadowRadius="25"
-            android:text="@string/WoodenItems"
-            android:textColor="#BAB8B8"
-            android:textSize="24sp"
-            app:cornerRadius="@dimen/borderradius" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="370dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/productleft"
+                android:layout_marginTop="@dimen/margintop"
+                android:backgroundTint="#653700B3"
+                android:fontFamily="serif"
+                android:onClick="goTofourthActivity"
+                android:shadowColor="@color/black"
+                android:shadowDx="25"
+                android:shadowDy="20"
+                android:shadowRadius="25"
+                android:text="@string/KitchenDining"
+                android:textColor="#BAB8B8"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/borderradius" />
 
-        <Button
-            android:onClick="goTosixthActivity"
-            android:id="@+id/button5"
-            android:layout_width="370dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="@dimen/productleft"
-            android:layout_marginTop="@dimen/margintop"
-            android:backgroundTint="#653700B3"
-            android:fontFamily="serif"
-            android:shadowColor="@color/black"
-            android:shadowDx="25"
-            android:shadowDy="20"
-            android:shadowRadius="25"
-            android:text="@string/RushReedItems"
-            android:textColor="#BAB8B8"
-            android:textSize="24sp"
-            app:cornerRadius="@dimen/borderradius" />
-    </LinearLayout>
-</ScrollView>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="370dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/productleft"
+                android:layout_marginTop="@dimen/margintop"
+                android:backgroundTint="#653700B3"
+                android:fontFamily="serif"
+                android:onClick="goTofifthActivity"
+                android:shadowColor="@color/black"
+                android:shadowDx="25"
+                android:shadowDy="20"
+                android:shadowRadius="25"
+                android:text="@string/WoodenItems"
+                android:textColor="#BAB8B8"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/borderradius" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="370dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/productleft"
+                android:layout_marginTop="@dimen/margintop"
+                android:backgroundTint="#653700B3"
+                android:fontFamily="serif"
+                android:onClick="goTosixthActivity"
+                android:shadowColor="@color/black"
+                android:shadowDx="25"
+                android:shadowDy="20"
+                android:shadowRadius="25"
+                android:text="@string/RushReedItems"
+                android:textColor="#BAB8B8"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/borderradius" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -57,7 +57,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="235dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/detailsleft"
                 android:orientation="vertical">
@@ -66,7 +66,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="103dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/sofasidepillow"
@@ -77,23 +77,55 @@
                     android:id="@+id/textView4"
                     android:layout_width="103dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/price"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button6"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="40sp"
-                    android:layout_marginTop="@dimen/buttentop"
-                    android:backgroundTint="@color/cartcolor"
-                    android:text="@string/cart"
-                    app:cornerRadius="50dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Add to cart"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/fetchdata"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="see item" />
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -117,14 +149,14 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="235dp"
+                android:layout_width="111dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/detailsleft"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/itemdescription"
                     android:layout_marginTop="@dimen/itemtop"
@@ -135,7 +167,7 @@
 
                 <TextView
                     android:id="@+id/textView12"
-                    android:layout_width="match_parent"
+                    android:layout_width="97dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/itemdescription"
                     android:layout_marginTop="@dimen/itemtop"
@@ -144,15 +176,39 @@
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="40sp"
-                    android:layout_marginTop="@dimen/buttentop"
-                    android:backgroundTint="#4A148C"
-                    android:text="@string/cart"
-                    app:cornerRadius="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Add to cart"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="See Item" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
@@ -177,7 +233,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="235dp"
+                android:layout_width="111dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/detailsleft"
                 android:orientation="vertical">
@@ -186,7 +242,7 @@
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/Handloomclassbags"
@@ -197,22 +253,46 @@
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/price2"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button8"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="40sp"
-                    android:layout_marginTop="@dimen/buttentop"
-                    android:backgroundTint="#4A148C"
-                    android:text="@string/cart"
-                    app:cornerRadius="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Add to cart"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="See Item" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
@@ -237,7 +317,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="235dp"
+                android:layout_width="111dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/detailsleft"
                 android:orientation="vertical">
@@ -246,7 +326,7 @@
                     android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/traditionalbags"
@@ -257,22 +337,58 @@
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/price3"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button9"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="40sp"
-                    android:layout_marginTop="@dimen/buttentop"
-                    android:backgroundTint="#4A148C"
-                    android:text="@string/cart"
-                    app:cornerRadius="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/button31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Add to cart"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/button32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="See Item" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
@@ -297,7 +413,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="235dp"
+                android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/detailsleft"
                 android:orientation="vertical">
@@ -306,7 +422,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/Handloomclassbags"
@@ -317,22 +433,46 @@
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/itemdescription"
+                    android:layout_marginLeft="1dp"
                     android:layout_marginTop="@dimen/itemtop"
                     android:fontFamily="sans-serif-condensed"
                     android:text="@string/price4"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button10"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="40sp"
-                    android:layout_marginTop="@dimen/buttentop"
-                    android:backgroundTint="#4A148C"
-                    android:text="@string/cart"
-                    app:cornerRadius="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Add to cart"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="See Item" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
